@@ -1,0 +1,19 @@
+.todoList {
+  list-style: none;
+  padding: 0;
+  margin: 1rem auto;
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.todoItem, .doneItem {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.70rem 2rem;
+  margin-bottom: 0.5rem;
+  align-items: center;
+  font-size: 20px;
+  color: rgb(49, 49, 49);
+  border-bottom: 1px solid #898989;
+}
